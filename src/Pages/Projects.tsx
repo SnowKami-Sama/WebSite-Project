@@ -3,7 +3,6 @@ import Pokemon from "./ProjectsList/Pokemon";
 import Project2 from "./ProjectsList/Project2";
 import Slots from "./ProjectsList/Slot";
 import CurrentTime from "./ProjectsList/TimeDate";
-import Toolbar from "./ProjectsList/Toolbaar";
 import Slots2 from "./ProjectsList/slotsv2";
 import styles from "./app.module.css"
 
