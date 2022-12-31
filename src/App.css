@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(179, 7, 7);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:red;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(255, 34, 0);
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.click:hover {
+  opacity: 0.3;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: black;
+  text-align: center;
+}
+
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-80deg, rgb(0, 0, 0) 50%, rgb(252, 252, 252) 25%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+

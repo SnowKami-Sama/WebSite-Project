@@ -1,0 +1,39 @@
+
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-home {
+    background-color: rgb(105, 219, 12);
+  }
+
+  .project {
+    background-color: #d62f0a;
+    border: 2px solid #000000;
+    padding: 10px;
+    border-radius: 1rem;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: center;
+}
+
+p {
+    font-family: Avenir;
+  }
+
+  .homes {
+    background-color: #d62f0a;
+    border: 2px solid #000000;
+    padding: 10px;
+    border-radius: 1rem;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: center;
+  }
+
+

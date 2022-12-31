@@ -1,0 +1,29 @@
+.slot {
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.won {
+    color: green;
+    font-size: 22pt;
+}
+
+.loss {
+    color: red;
+    font-size: 22pt;
+}
+
+.lever {
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 100px;
+}
+
+
+
+
