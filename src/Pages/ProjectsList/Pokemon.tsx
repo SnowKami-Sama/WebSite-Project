@@ -72,7 +72,7 @@ const Pokemon = () => {
     const [selectedLimit, setSelectedLimit] = useState(5);
     return (
         <div>
-            <h1>Project 5 : Pokedex</h1>
+            <h1>Project 4 : Pokedex</h1>
              <Pokedex limit={selectedLimit}/>
             <input type="number" onChange={(e) => setLimit(Number(e.target.value))} value={limit}/>
             <button onClick={() =>{
