@@ -14,11 +14,8 @@ const Projects = () => {
             <p className={styles.project}>{Project2()}</p>
             <br />
             <p className={styles.project}>{Slots2()}</p>
-            <br />
-            <p className={styles.project}>{Toolbar()}</p>
-            <br />
-            
-            <p className={styles.project}><h1>Project 4 : Time & Date</h1>{CurrentTime()}</p>
+            <br />     
+            <p className={styles.project}><h1>Project 3 : Time & Date</h1>{CurrentTime()}</p>
             <br />     
             <p className={styles.project}>{Pokemon()}</p>
             <br />
